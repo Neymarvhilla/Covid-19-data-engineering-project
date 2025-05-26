@@ -1,7 +1,7 @@
 {
-    "now": "2025-05-26T11:56:04.243Z",
-    "perfNow": 162967608.6999998,
-    "diagnosticCorrelation": "9d65167f-c76a-48f6-9222-979146f1a427",
+    "now": "2025-05-26T11:56:40.310Z",
+    "perfNow": 163003675.7999997,
+    "diagnosticCorrelation": "fddac441-84f1-4494-97b5-9101c5a07b77",
     "source": "DownloadSupportFiles",
     "environment": {
         "productName": "adf",
@@ -17,7 +17,7 @@
         "loggingKey": "51c60e31-a1b5-4ccc-9ef0-5c6936cc6575"
     },
     "additionalInfo": {
-        "selectedResource": "df_transform_cases_deaths",
+        "selectedResource": "df_hospital_admissions",
         "selectedResourceType": "dataflow"
     }
 }
