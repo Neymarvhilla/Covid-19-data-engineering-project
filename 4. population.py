@@ -105,7 +105,7 @@ population_df.write.mode("overwrite").format("delta").saveAsTable("covid_process
 jdbc_url = "jdbc:sqlserver://covid-srv-neso.database.windows.net:1433;database=covid-db-neso"
 connection_properties = {
     "user": "adm@covid-srv-neso",
-    "password": "Neymar@10",
+    "password": "*******",
     "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
 }
 
