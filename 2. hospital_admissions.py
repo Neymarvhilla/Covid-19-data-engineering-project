@@ -201,7 +201,7 @@ weekly_hospital_admissions_df.write.mode("overwrite").format("delta").saveAsTabl
 jdbc_url = "jdbc:sqlserver://covid-srv-neso.database.windows.net:1433;database=covid-db-neso"
 connection_properties = {
     "user": "adm@covid-srv-neso",
-    "password": "Neymar@10",
+    "password": "******",
     "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
 }
 
