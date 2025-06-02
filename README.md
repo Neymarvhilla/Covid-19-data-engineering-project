@@ -1,11 +1,11 @@
 # Covid-19-data-engineering-project
-# 🦠 COVID-19 Data Engineering Project
+#  COVID-19 Data Engineering Project
 
 This project is a modern data engineering pipeline designed to ingest, transform, and serve COVID-19 data using Microsoft Azure cloud services and Apache Spark.
 
 ---
 
-## 📌 Project Objectives
+##  Project Objectives
 
 - Build an end-to-end, scalable data platform using Azure-native tools.
 - Ingest real-world COVID-19 datasets from public sources.
@@ -14,7 +14,7 @@ This project is a modern data engineering pipeline designed to ingest, transform
 
 ---
 
-## 🚀 Architecture Overview
+##  Architecture Overview
 
 
 Public HTTP Sources
@@ -37,7 +37,7 @@ Azure SQL DB (via JDBC)
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Azure Data Factory**: Pipeline orchestration, HTTP ingestion, Data Flows
 - **Azure Data Lake Storage (Gen2)**: Raw, Processed, and Presentation zones
@@ -48,7 +48,7 @@ Azure SQL DB (via JDBC)
 
 ---
 
-## 📂 Datasets
+##  Datasets
 
 - COVID-19 Cases & Deaths (`cases_deaths.csv`)
 - Hospital Admissions (`hospital_admissions.csv`)
@@ -57,26 +57,26 @@ Azure SQL DB (via JDBC)
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
-### ✅ Ingestion (ADF)
+###  Ingestion (ADF)
 - Ingested `.csv` and `.tsv` files from public sources to the **Raw Layer** of ADLS.
 - Used ADF **Copy Activity** and **parameterized pipelines** to handle multiple data types.
 - Designed **Data Flows** to implement conditional splits and type conversions.
 
-### 🧠 Transformation (Databricks + PySpark)
+### Transformation (Databricks + PySpark)
 - Filtered and joined datasets across demographics, indicators, and country mappings.
 - Created **weekly aggregates** (hospitalizations, ICU counts) and enriched data with **lookup tables**.
 - Implemented **incremental loads**, partitioned writes, and timestamp tracking using `created_date`.
 
-### 🧾 Serving (Azure SQL Database)
+### Serving (Azure SQL Database)
 - Connected Databricks to Azure SQL via **JDBC**.
 - Wrote cleaned and curated Delta tables to SQL tables (e.g., `dbo.DailyHospitalAdmissions`).
 - Enabled reporting in Power BI via Azure SQL.
 
 ---
 
-## 📊 Outcome
+## Outcome
 
 The project mimics a real-world data engineering environment, featuring:
 
