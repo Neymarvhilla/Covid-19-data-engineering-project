@@ -1,6 +1,0 @@
-selected resource name:		df_hospital_admissions
-selected resource type:		dataflow
-factory name:			covid-reporting-adf-neso
-factory location:		uksouth
-subscription id:		51fd009b-8623-4a84-aad3-cf1a17875c59
-time of download (UTC):		Mon, 26 May 2025 11:56:40 GMT
